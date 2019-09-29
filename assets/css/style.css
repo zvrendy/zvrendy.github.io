@@ -1,0 +1,114 @@
+html {
+       position: relative;
+}
+
+body {
+       position: relative;
+}
+
+hr {
+       width: 250px;
+       border-top: 3px solid #999;
+}
+
+section {
+       min-height: 600px;
+}
+
+/* DESKTOP VERSION */
+@media (min-width: 992px) {
+       .nav-link {
+              text-transform: capitalize;
+              margin-right: 30px;
+       }
+
+       .nav-link:hover::after {
+              content: '';
+              display: block;
+              border-bottom: 2px solid #999;
+              width: 50%;
+              margin: auto;
+              padding-bottom: 5px;
+              margin-bottom: -7px;
+       }
+}
+
+
+
+.section-portfolio {
+       background-color: #d7d6d6ed;
+}
+
+.banner {
+       height: 100vh;
+
+       /* Flexbox */
+       display: flex;
+       align-items: center;
+}
+
+.jumbotron {
+       background: url(../../images/bg-image01.jpg);
+
+}
+
+.navbar.navbar-transparent {
+       padding-top: 25px
+}
+
+.navbar-transparent {
+       background: transparent !important;
+       border-bottom: 1px solid transparent;
+       box-shadow: none
+}
+
+.nav-down {
+       position: fixed;
+       top: 0;
+       transition: top 0.5s ease-in-out;
+       width: 100%;
+}
+
+.page-header {
+       background-image: url('../../images/bg-image01.jpg');
+       background-attachment: fixed;
+       background-color: #b2afab;
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+       min-height: 100vh;
+       height: 100%;
+       overflow: hidden;
+       position: relative;
+       width: 100%;
+       z-index: 1
+}
+
+.page-header .content-center {
+       position: absolute;
+       top: 50%;
+       left: 50%;
+       z-index: 3;
+       transform: translate(-50%, -50%);
+       text-align: center;
+       color: #fff;
+       width: 100%;
+}
+
+.wrapper {
+       transition: all .5s cubic-bezier(.685, .0473, .346, 1);
+       left: 0;
+       background-color: #fff;
+       position: relative;
+       z-index: 1
+}
+
+.presentation-page .category-absolute {
+       position: absolute;
+       text-align: center;
+       top: 100vh;
+       margin-top: -60px;
+       padding: 0 15px;
+       width: 100%;
+       color: rgba(255, 255, 255, 0.5);
+}
