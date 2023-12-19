@@ -15,9 +15,13 @@ import {
   SiAdobephotoshop,
 } from "react-icons/si";
 
-interface icons {
-  icon: JSX.Element,
-};
+import {
+  RxCrop,
+  RxPencil2,
+  RxDesktop,
+  RxReader,
+  RxRocket
+} from 'react-icons/rx'
 
 interface aboutDataProps  {
   title: string;
@@ -97,4 +101,38 @@ export const aboutData: Array<aboutDataProps> = [
       },
     ],
   },
+];
+
+interface serviceDataProps {
+  icon: JSX.Element,
+  title: string,
+  description: string
+};
+
+export const serviceData: Array<serviceDataProps> = [
+  {
+    icon: <RxCrop />,
+    title: 'Branding',
+    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, laudantium."
+  },
+  {
+    icon: <RxPencil2 />,
+    title: 'Design',
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, rerum?"
+  },
+  {
+    icon: <RxDesktop />,
+    title: 'Development',
+    description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus, consectetur."
+  },
+  {
+    icon: <RxReader />,
+    title: 'Copywriting',
+    description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus, culpa."
+  },
+  {
+    icon: <RxRocket />,
+    title: 'SEO',
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, porro."
+  }
 ];

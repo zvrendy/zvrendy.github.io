@@ -1,14 +1,28 @@
-'use client'
 
 import { Sora } from 'next/font/google'
-import { AnimatePresence, motion } from 'framer-motion';
+import { Metadata } from 'next';
 
 import './globals.css'
 import TopLeftImage from '@/components/top-left-image';
 import Nav from '@/components/nav';
 import Header from '@/components/header';
-import Transition from '@/components/transition';
-  
+import MotionProvider from '@/components/providers/motion-provider';
+import { siteConfig } from '@/config/site';
+
+export const metadata: Metadata = {
+  title: {
+    default: siteConfig.name,
+    template: `%s | ${siteConfig.name}`
+  },
+  description: siteConfig.description,
+  icons: [
+    {
+      url: "/madfento.png",
+      href: "/madfento.png"
+    }
+  ]
+};
+
 const sora = Sora({
   subsets: ['latin'],
   variable: '--font-sora',
@@ -21,17 +35,15 @@ export default function RootLayout({
   children: React.ReactNode
   }) {
   return (
-    <html lang="en">
-      <body className={`page bg-site text-white bg-cover bg-no-repeat ${sora.variable} font-sora relative}`}>
-        <AnimatePresence mode='wait'>
-          <motion.div  className='h-full'>
-            <Transition/>
-            <TopLeftImage />
-            <Nav/>
-            <Header/>
-              {children}
-          </motion.div>
-        </AnimatePresence>
+    <html lang="en" suppressHydrationWarning>
+      <body className={`page bg-site text-white bg-white dark:bg-[#313338] bg-cover bg-no-repeat ${sora.variable} font-sora relative`}>
+          <MotionProvider>
+
+              <TopLeftImage />
+              <Nav/>
+              <Header/>
+                {children}
+          </MotionProvider>
       </body>
     </html>
   )
