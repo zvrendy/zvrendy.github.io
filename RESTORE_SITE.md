@@ -2,7 +2,21 @@
 
 When you're ready to launch your full portfolio website, follow these simple steps:
 
-## Step 1: Restore the Original Home Page
+## Step 1: Disable Maintenance Mode
+
+**Delete or rename the middleware file:**
+
+```bash
+# Option 1: Delete it
+rm middleware.ts
+
+# Option 2: Rename it to keep as backup
+mv middleware.ts middleware.ts.backup
+```
+
+This will stop redirecting all routes to the maintenance page.
+
+## Step 2: Restore the Original Home Page
 
 ```bash
 # Delete the maintenance page
@@ -12,7 +26,7 @@ rm app/page.tsx
 mv app/page.backup.tsx app/page.tsx
 ```
 
-## Step 2: Re-enable Header and Footer
+## Step 3: Re-enable Header and Footer
 
 Open `app/layout.tsx` and uncomment the Header and Footer:
 
@@ -35,7 +49,7 @@ Open `app/layout.tsx` and uncomment the Header and Footer:
 </div>
 ```
 
-## Step 3: Add Your Images (Important!)
+## Step 4: Add Your Images (Important!)
 
 Before launching, make sure to add your images to avoid the errors:
 
@@ -51,7 +65,7 @@ Replace all image paths with placeholder URLs:
 - Project images: `https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800`
 - Blog images: `https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=800`
 
-## Step 4: Rebuild and Test
+## Step 5: Rebuild and Test
 
 ```bash
 npm run build
