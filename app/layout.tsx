@@ -59,9 +59,9 @@ export default function RootLayout({
         >
           <div className="flex min-h-screen flex-col">
             {/* Header and Footer hidden during maintenance */}
-            {/* <Header /> */}
+            <Header />
             <main className="flex-1">{children}</main>
-            {/* <Footer /> */}
+            <Footer />
           </div>
           <Toaster />
         </ThemeProvider>

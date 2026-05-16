@@ -10,12 +10,12 @@ import {
 
 // Personal Information
 export const personalInfo: PersonalInfo = {
-  name: "John Doe",
-  title: "Full Stack Developer & UI/UX Enthusiast",
-  bio: "Passionate full-stack developer with 5+ years of experience building modern web applications. Specialized in React, Next.js, and Node.js with a keen eye for design and user experience. I love turning complex problems into simple, beautiful, and intuitive solutions.",
-  email: "john.doe@example.com",
-  location: "San Francisco, CA",
-  phone: "+1 (555) 123-4567",
+  name: "Akhmad Efendy Mooduto",
+  title: "Software Developer",
+  bio: "A Software Developer with seven years of experience specializing in Agile software development, back-end development such as PHP and JavaScript, and web development. A strong history of developing innovative application features and software solutions to enhance the user experience.",
+  email: "zvrendy@gmail.com",
+  location: "Surabaya, Indonesia",
+  phone: "+62 xxx xxxx xxxx",
   avatar: "/images/avatar.jpg",
   resume: "/resume.pdf",
 };
@@ -24,22 +24,17 @@ export const personalInfo: PersonalInfo = {
 export const socialLinks: SocialLink[] = [
   {
     name: "GitHub",
-    url: "https://github.com/johndoe",
+    url: "https://github.com/zvrendy",
     icon: "github",
   },
   {
     name: "LinkedIn",
-    url: "https://linkedin.com/in/johndoe",
+    url: "https://linkedin.com/in/akhmad-efendy-mooduto",
     icon: "linkedin",
   },
   {
-    name: "Twitter",
-    url: "https://twitter.com/johndoe",
-    icon: "twitter",
-  },
-  {
     name: "Email",
-    url: "mailto:john.doe@example.com",
+    url: "mailto:zvrendy@gmail.com",
     icon: "mail",
   },
 ];
@@ -47,108 +42,118 @@ export const socialLinks: SocialLink[] = [
 // Skills
 export const skills: Skill[] = [
   // Frontend
-  { name: "React", level: 95, category: SkillCategory.FRONTEND },
-  { name: "Next.js", level: 90, category: SkillCategory.FRONTEND },
-  { name: "TypeScript", level: 90, category: SkillCategory.FRONTEND },
-  { name: "JavaScript", level: 95, category: SkillCategory.FRONTEND },
-  { name: "HTML/CSS", level: 95, category: SkillCategory.FRONTEND },
-  { name: "Tailwind CSS", level: 90, category: SkillCategory.FRONTEND },
-  { name: "Vue.js", level: 75, category: SkillCategory.FRONTEND },
-  { name: "Redux", level: 85, category: SkillCategory.FRONTEND },
+  { name: "React.js", level: 85, category: SkillCategory.FRONTEND },
+  { name: "Next.js", level: 85, category: SkillCategory.FRONTEND },
+  { name: "TypeScript", level: 80, category: SkillCategory.FRONTEND },
+  { name: "JavaScript", level: 90, category: SkillCategory.FRONTEND },
+  { name: "jQuery", level: 90, category: SkillCategory.FRONTEND },
+  { name: "AJAX", level: 85, category: SkillCategory.FRONTEND },
+  { name: "CSS", level: 85, category: SkillCategory.FRONTEND },
+  { name: "Ext.JS", level: 75, category: SkillCategory.FRONTEND },
+  { name: "Inertia.js", level: 80, category: SkillCategory.FRONTEND },
 
   // Backend
-  { name: "Node.js", level: 90, category: SkillCategory.BACKEND },
-  { name: "Express", level: 85, category: SkillCategory.BACKEND },
-  { name: "Python", level: 80, category: SkillCategory.BACKEND },
-  { name: "Django", level: 75, category: SkillCategory.BACKEND },
+  { name: "PHP", level: 95, category: SkillCategory.BACKEND },
+  { name: "Laravel", level: 90, category: SkillCategory.BACKEND },
+  { name: "CodeIgniter", level: 90, category: SkillCategory.BACKEND },
   { name: "REST API", level: 90, category: SkillCategory.BACKEND },
-  { name: "GraphQL", level: 80, category: SkillCategory.BACKEND },
+  { name: "cURL", level: 85, category: SkillCategory.BACKEND },
 
   // Database
-  { name: "PostgreSQL", level: 85, category: SkillCategory.DATABASE },
-  { name: "MongoDB", level: 85, category: SkillCategory.DATABASE },
-  { name: "Redis", level: 75, category: SkillCategory.DATABASE },
-  { name: "Prisma", level: 80, category: SkillCategory.DATABASE },
-
-  // DevOps
-  { name: "Docker", level: 80, category: SkillCategory.DEVOPS },
-  { name: "AWS", level: 75, category: SkillCategory.DEVOPS },
-  { name: "CI/CD", level: 80, category: SkillCategory.DEVOPS },
-  { name: "Vercel", level: 90, category: SkillCategory.DEVOPS },
+  { name: "MySQL", level: 95, category: SkillCategory.DATABASE },
+  { name: "SQL Server", level: 80, category: SkillCategory.DATABASE },
 
   // Tools
-  { name: "Git", level: 95, category: SkillCategory.TOOLS },
-  { name: "VS Code", level: 95, category: SkillCategory.TOOLS },
-  { name: "Figma", level: 85, category: SkillCategory.TOOLS },
+  { name: "Git", level: 85, category: SkillCategory.TOOLS },
   { name: "Postman", level: 90, category: SkillCategory.TOOLS },
+  { name: "DataTables", level: 85, category: SkillCategory.TOOLS },
+  { name: "Google Maps API", level: 80, category: SkillCategory.TOOLS },
 ];
 
 // Timeline (Experience & Education)
 export const timeline: TimelineItem[] = [
   {
     id: "exp-1",
-    title: "Senior Full Stack Developer",
-    organization: "TechCorp Inc.",
-    location: "San Francisco, CA",
-    startDate: "2022-01",
+    title: "Information Technology Support Staff",
+    organization: "Miracle Aesthetic Clinic",
+    location: "Indonesia",
+    startDate: "2019-12",
     current: true,
-    description: "Leading development of enterprise-scale web applications using React, Next.js, and Node.js",
+    description: "Managing IT infrastructure and developing custom software solutions for clinic operations",
     achievements: [
-      "Architected and developed a microservices-based platform serving 100k+ users",
-      "Reduced page load time by 60% through optimization and code splitting",
-      "Mentored junior developers and conducted code reviews",
-      "Implemented CI/CD pipeline reducing deployment time by 75%"
+      "Resolved operational issues within running systems",
+      "Maintained system and database performance",
+      "Contributed to system development according to company needs",
+      "Developed software support system using MySQL and PHP CodeIgniter",
+      "Built custom applications using PHP, MySQL, and Ajax"
     ],
     type: "experience",
   },
   {
     id: "exp-2",
-    title: "Full Stack Developer",
-    organization: "StartupXYZ",
-    location: "San Francisco, CA",
-    startDate: "2020-03",
-    endDate: "2021-12",
+    title: "Information Technology Staff",
+    organization: "PrimaryCons Tax Consultant",
+    location: "Indonesia",
+    startDate: "2013-07",
+    endDate: "2019-11",
     current: false,
-    description: "Developed and maintained multiple client-facing web applications",
+    description: "Managed employee database and developed custom applications for tax consulting operations",
     achievements: [
-      "Built responsive web applications using React and Node.js",
-      "Integrated third-party APIs and payment gateways",
-      "Improved application performance by 40%",
-      "Collaborated with designers to implement pixel-perfect UIs"
+      "Database Administrator managing employee database systems",
+      "Developed custom applications using Visual Basic",
+      "Maintained and optimized database performance",
+      "Provided technical support for business operations"
     ],
     type: "experience",
   },
   {
     id: "exp-3",
-    title: "Frontend Developer",
-    organization: "WebAgency Co.",
-    location: "Remote",
-    startDate: "2019-01",
-    endDate: "2020-02",
+    title: "IT Support Staff",
+    organization: "Saung Net Cyber Café",
+    location: "Indonesia",
+    startDate: "2012-01",
+    endDate: "2012-12",
     current: false,
-    description: "Created modern, responsive websites for various clients",
+    description: "Provided IT support and maintained computer systems for cyber café operations",
     achievements: [
-      "Developed 20+ websites using React and Vue.js",
-      "Implemented SEO best practices increasing organic traffic by 150%",
-      "Created reusable component libraries",
-      "Worked directly with clients to gather requirements"
+      "Maintained computer hardware and software systems",
+      "Provided technical support to customers",
+      "Managed network infrastructure",
+      "Performed regular system maintenance and updates"
+    ],
+    type: "experience",
+  },
+  {
+    id: "exp-4",
+    title: "Information Technology Staff",
+    organization: "88 Cyber Café Surabaya",
+    location: "Surabaya, Indonesia",
+    startDate: "2010-01",
+    endDate: "2011-01",
+    current: false,
+    description: "Computer hardware technician responsible for installation and maintenance",
+    achievements: [
+      "Installed and configured computer systems",
+      "Performed hardware maintenance and repairs",
+      "Troubleshot technical issues",
+      "Managed system updates and backups"
     ],
     type: "experience",
   },
   {
     id: "edu-1",
-    title: "Bachelor of Science in Computer Science",
-    organization: "University of California",
-    location: "Berkeley, CA",
-    startDate: "2015-09",
-    endDate: "2019-05",
+    title: "Bachelor of Computer Science / Information Technology",
+    organization: "Universitas Pembangunan Nasional 'Veteran' Jawa Timur",
+    location: "Surabaya, Indonesia",
+    startDate: "2013-09",
+    endDate: "2017-12",
     current: false,
-    description: "Focused on software engineering and web development",
+    description: "Focused on software engineering and information technology (Teknik Informatika)",
     achievements: [
-      "GPA: 3.8/4.0",
-      "Dean's List all semesters",
-      "President of Web Development Club",
-      "Completed senior thesis on Progressive Web Applications"
+      "Completed comprehensive study in software development",
+      "Gained expertise in database management",
+      "Learned web development and programming fundamentals",
+      "Developed strong foundation in computer science principles"
     ],
     type: "education",
   },
@@ -158,135 +163,137 @@ export const timeline: TimelineItem[] = [
 export const projects: Project[] = [
   {
     id: "1",
-    title: "E-Commerce Platform",
-    description: "A full-featured e-commerce platform with cart, checkout, and admin dashboard",
+    title: "AsetKu",
+    description: "Asset Management System for efficient tracking and management of company assets",
     longDescription: `
-A comprehensive e-commerce solution built with Next.js and Node.js. Features include product catalog, shopping cart, secure checkout with Stripe integration, order management, and a full-featured admin dashboard.
+A comprehensive Asset Management System designed to streamline asset tracking and management processes. Built with modern full-stack technologies including Laravel for robust backend operations and Inertia.js with React for a seamless, reactive user interface.
 
-The platform handles thousands of daily transactions and provides a seamless shopping experience with real-time inventory updates, personalized recommendations, and advanced search capabilities.
+The system provides complete asset lifecycle management from acquisition to disposal, with features including asset registration, assignment tracking, maintenance scheduling, depreciation calculations, and comprehensive reporting capabilities.
 
-Key technical highlights include server-side rendering for SEO, optimistic UI updates, comprehensive error handling, and a fully responsive design that works flawlessly across all devices.
+Key technical highlights include server-side rendering with Inertia.js for optimal performance, real-time updates, role-based access control, and an intuitive dashboard for asset analytics and insights.
     `,
-    technologies: ["Next.js", "TypeScript", "Node.js", "PostgreSQL", "Stripe", "Tailwind CSS"],
+    technologies: ["Laravel", "Inertia.js", "React", "MySQL", "PHP"],
     category: "Full Stack",
-    image: "/images/projects/ecommerce.jpg",
+    image: "/images/projects/asetku.jpg",
     images: [
-      "/images/projects/ecommerce-1.jpg",
-      "/images/projects/ecommerce-2.jpg",
-      "/images/projects/ecommerce-3.jpg",
+      "/images/projects/asetku-1.jpg",
+      "/images/projects/asetku-2.jpg",
+      "/images/projects/asetku-3.jpg",
     ],
-    liveUrl: "https://ecommerce-demo.example.com",
-    githubUrl: "https://github.com/johndoe/ecommerce-platform",
+    githubUrl: "https://github.com/zvrendy/asetku",
     featured: true,
-    createdAt: "2024-01-15",
+    createdAt: "2024-04-01",
   },
   {
     id: "2",
-    title: "Task Management App",
-    description: "Real-time collaborative task management application with team features",
+    title: "Satusehat API Integration",
+    description: "Healthcare platform integration with Indonesia's national health information system",
     longDescription: `
-A powerful task management application designed for teams. Built with React and Firebase, it offers real-time collaboration, drag-and-drop task organization, team workspaces, and comprehensive project tracking.
+Integration project with Satusehat platform (https://satusehat.kemkes.go.id/platform) to support government health initiatives and health information systems in accordance with regulatory requirements.
 
-Features include Kanban boards, Gantt charts, time tracking, file attachments, comments, and notifications. The app uses WebSocket connections for instant updates across all team members.
+The integration enables seamless data exchange between healthcare facilities and the national health information system, facilitating better healthcare coordination and patient data management across Indonesia.
 
-The application emphasizes user experience with smooth animations, keyboard shortcuts, and an intuitive interface that makes project management effortless.
+Built using REST APIs with comprehensive testing using Postman, the integration handles patient data synchronization, medical record sharing, and ensures compliance with Indonesian healthcare regulations. Implemented using PHP with cURL for reliable API communication.
     `,
-    technologies: ["React", "Firebase", "Material-UI", "Redux", "WebSocket"],
-    category: "Frontend",
-    image: "/images/projects/taskmanager.jpg",
+    technologies: ["PHP", "REST API", "Postman", "cURL", "API Testing"],
+    category: "Backend",
+    image: "/images/projects/satusehat.jpg",
     images: [
-      "/images/projects/taskmanager-1.jpg",
-      "/images/projects/taskmanager-2.jpg",
+      "/images/projects/satusehat-1.jpg",
+      "/images/projects/satusehat-2.jpg",
     ],
-    liveUrl: "https://taskmanager-demo.example.com",
-    githubUrl: "https://github.com/johndoe/task-manager",
+    githubUrl: "https://github.com/zvrendy/satusehat-integration",
     featured: true,
-    createdAt: "2023-11-20",
+    createdAt: "2024-03-01",
   },
   {
     id: "3",
-    title: "AI Content Generator",
-    description: "AI-powered content generation tool using OpenAI GPT API",
+    title: "MISHR - Employee Attendance App",
+    description: "Mobile employee attendance system with real-time location tracking and comprehensive reporting",
     longDescription: `
-An innovative content generation platform that leverages OpenAI's GPT models to help users create high-quality written content. The application supports multiple content types including blog posts, social media content, email templates, and more.
+A comprehensive Employee Attendance App that simplifies clocking in and out with a mobile application built on Flutter for both Android and iOS platforms. The backend is powered by PHP and MySQL, providing robust data management and processing capabilities.
 
-Built with Next.js and Python, the platform features a clean interface for input customization, real-time preview, content history, and export options. It includes advanced features like tone adjustment, length control, and SEO optimization.
+Features include real-time check-ins with GPS location tracking using Google Maps integration, automated attendance reports, efficient schedule management, leave requests, and overtime tracking. The system provides managers with detailed analytics and attendance patterns.
 
-The backend implements rate limiting, caching, and cost optimization strategies to ensure efficient API usage while maintaining high-quality output.
+The application emphasizes security and accuracy with location verification, photo verification for check-ins, and comprehensive audit trails. DataTables integration provides powerful reporting and data analysis capabilities for HR departments.
     `,
-    technologies: ["Next.js", "Python", "OpenAI API", "MongoDB", "Tailwind CSS"],
+    technologies: ["PHP", "MySQL", "jQuery", "Google Maps API", "DataTables", "Flutter"],
     category: "Full Stack",
-    image: "/images/projects/ai-content.jpg",
+    image: "/images/projects/mishr.jpg",
     images: [
-      "/images/projects/ai-content-1.jpg",
-      "/images/projects/ai-content-2.jpg",
+      "/images/projects/mishr-1.jpg",
+      "/images/projects/mishr-2.jpg",
+      "/images/projects/mishr-3.jpg",
     ],
-    liveUrl: "https://ai-content-demo.example.com",
-    githubUrl: "https://github.com/johndoe/ai-content-generator",
+    githubUrl: "https://github.com/zvrendy/mishr-attendance",
     featured: true,
-    createdAt: "2024-03-10",
+    createdAt: "2022-01-01",
   },
   {
     id: "4",
-    title: "Weather Dashboard",
-    description: "Beautiful weather dashboard with forecasts and interactive maps",
+    title: "Point of Sales System",
+    description: "Comprehensive POS system for mobile credit business with inventory and financial management",
     longDescription: `
-A visually stunning weather dashboard that provides current conditions, hourly and daily forecasts, and interactive weather maps. The application integrates multiple weather APIs to provide accurate and comprehensive data.
+A complete Point of Sale (POS) system designed specifically for mobile credit (pulsa) businesses. The system streamlines transaction processing and business operations with an intuitive interface and powerful backend.
 
-Features include location-based weather, search functionality, favorite locations, severe weather alerts, and detailed meteorological data. The UI adapts based on current weather conditions with dynamic backgrounds and themed components.
+Features include product catalog management, real-time inventory tracking, customer management, transaction processing, receipt printing, financial reporting, and stock analysis. The system handles multiple product types including mobile credit, data packages, and digital vouchers.
 
-Built with modern web technologies, the dashboard is fully responsive and works offline using service workers and cached data.
+Built with Laravel for robust backend operations and jQuery for responsive frontend interactions. The system provides comprehensive reports for sales analysis, inventory levels, profit margins, and customer purchasing patterns, helping business owners make informed decisions.
     `,
-    technologies: ["React", "Weather API", "Mapbox", "Chart.js", "CSS"],
-    category: "Frontend",
-    image: "/images/projects/weather.jpg",
-    images: ["/images/projects/weather-1.jpg"],
-    liveUrl: "https://weather-demo.example.com",
-    githubUrl: "https://github.com/johndoe/weather-dashboard",
+    technologies: ["Laravel", "PHP", "JavaScript", "jQuery", "MySQL"],
+    category: "Full Stack",
+    image: "/images/projects/pos.jpg",
+    images: [
+      "/images/projects/pos-1.jpg",
+      "/images/projects/pos-2.jpg",
+    ],
+    githubUrl: "https://github.com/zvrendy/pos-pulsa",
     featured: false,
-    createdAt: "2023-08-05",
+    createdAt: "2023-01-01",
   },
   {
     id: "5",
-    title: "Social Media Analytics",
-    description: "Analytics platform for tracking social media performance",
+    title: "E-Office Helpdesk System",
+    description: "Digital helpdesk and document management system for efficient office operations",
     longDescription: `
-A comprehensive analytics platform that helps businesses track and analyze their social media performance across multiple platforms. The dashboard provides insights into engagement, reach, follower growth, and content performance.
+A comprehensive helpdesk application that streamlines office operations and IT support processes. The system enables ticket creation, routing to relevant divisions, and digital request letter generation.
 
-Features include custom date ranges, comparative analysis, automated reporting, sentiment analysis, and competitor tracking. The platform integrates with major social media APIs and uses machine learning for trend prediction.
+Features include ticket management with priority levels, assignment workflow, status tracking, digital document creation, approval workflows, notification system, and comprehensive reporting. The system improves response times and provides transparency in handling internal requests.
 
-Built with scalability in mind, it handles large datasets efficiently and provides real-time updates through a sophisticated data pipeline.
+Built with Laravel framework, utilizing DataTables for efficient data presentation and jQuery for interactive user interfaces. The system includes role-based access control, ensuring secure and organized handling of office requests and documentation.
     `,
-    technologies: ["Vue.js", "Node.js", "PostgreSQL", "D3.js", "Express"],
+    technologies: ["Laravel", "PHP", "jQuery", "DataTables", "MySQL"],
     category: "Full Stack",
-    image: "/images/projects/analytics.jpg",
+    image: "/images/projects/eoffice.jpg",
     images: [
-      "/images/projects/analytics-1.jpg",
-      "/images/projects/analytics-2.jpg",
+      "/images/projects/eoffice-1.jpg",
+      "/images/projects/eoffice-2.jpg",
     ],
-    githubUrl: "https://github.com/johndoe/social-analytics",
+    githubUrl: "https://github.com/zvrendy/eoffice-helpdesk",
     featured: false,
-    createdAt: "2023-06-12",
+    createdAt: "2021-05-01",
   },
   {
     id: "6",
-    title: "Recipe Sharing Platform",
-    description: "Community platform for sharing and discovering recipes",
+    title: "Point of Sales System version 2",
+    description: "Comprehensive POS system for mobile credit business with inventory and financial management",
     longDescription: `
-A vibrant community platform where food enthusiasts can share, discover, and save recipes. The platform features user profiles, recipe collections, ratings and reviews, and a sophisticated search system with filters for dietary restrictions, cuisine types, and cooking time.
+A complete Point of Sale (POS) system designed specifically for mobile credit (pulsa) businesses. The system streamlines transaction processing and business operations with an intuitive interface and powerful backend.
 
-Users can create meal plans, generate shopping lists, and interact with other members through comments and favorites. The platform includes a recipe scaling feature and nutritional information integration.
+Features include product catalog management, real-time inventory tracking, customer management, transaction processing, receipt printing, financial reporting, and stock analysis. The system handles multiple product types including mobile credit, data packages, and digital vouchers.
 
-The responsive design ensures a great experience on all devices, with special attention to mobile usability for kitchen use.
+Built with Laravel for robust backend operations and jQuery for responsive frontend interactions. The system provides comprehensive reports for sales analysis, inventory levels, profit margins, and customer purchasing patterns, helping business owners make informed decisions.
     `,
-    technologies: ["Next.js", "MongoDB", "Cloudinary", "Tailwind CSS", "NextAuth"],
+    technologies: ["Laravel", "PHP", "JavaScript", "jQuery", "MySQL", "React", "Inertia.js", "Tailwind CSS", "shadcn/ui"],
     category: "Full Stack",
-    image: "/images/projects/recipes.jpg",
-    images: ["/images/projects/recipes-1.jpg", "/images/projects/recipes-2.jpg"],
-    liveUrl: "https://recipes-demo.example.com",
-    githubUrl: "https://github.com/johndoe/recipe-platform",
+    image: "/images/projects/pos.jpg",
+    images: [
+      "/images/projects/pos-1.jpg",
+      "/images/projects/pos-2.jpg",
+    ],
+    githubUrl: "https://github.com/zvrendy/pos-pulsa",
     featured: false,
-    createdAt: "2023-04-18",
+    createdAt: "2023-01-01",
   },
 ];
 
@@ -294,279 +301,282 @@ The responsive design ensures a great experience on all devices, with special at
 export const blogPosts: BlogPost[] = [
   {
     id: "1",
-    title: "Getting Started with Next.js 14 and Server Components",
-    excerpt: "Learn how to build modern web applications using Next.js 14's powerful server components and app router.",
+    title: "Getting Started with Laravel and Inertia.js",
+    excerpt: "Learn how to build modern web applications using Laravel with Inertia.js for seamless backend-frontend integration.",
     content: `
-# Getting Started with Next.js 14 and Server Components
+# Getting Started with Laravel and Inertia.js
 
-Next.js 14 introduces powerful new features that make building web applications faster and more efficient. In this post, we'll explore server components and how they can revolutionize your development workflow.
+Laravel combined with Inertia.js offers a powerful approach to building modern web applications. In this post, we'll explore how to create a seamless full-stack application without the complexity of traditional SPAs.
 
-## What are Server Components?
+## What is Inertia.js?
 
-Server Components are a new way to build React applications that render on the server by default. This approach offers several benefits:
+Inertia.js allows you to create fully client-side rendered, single-page apps, without much of the complexity that comes with modern SPAs. It does this by leveraging existing server-side patterns.
 
-- **Better Performance**: Less JavaScript sent to the client
-- **Improved SEO**: Content is rendered on the server
-- **Direct Database Access**: Query data directly in components
-- **Automatic Code Splitting**: Only load what's needed
+- **No API Required**: Build monolithic applications
+- **Server-Side Routing**: Use Laravel routes
+- **React/Vue Integration**: Use modern frontend frameworks
+- **Code Splitting**: Automatic optimization
 
-## Building Your First Server Component
+## Setting Up Your First Inertia App
 
-\`\`\`tsx
-// app/page.tsx
-async function getData() {
-  const res = await fetch('https://api.example.com/data')
-  return res.json()
-}
+\`\`\`bash
+# Install Laravel
+composer create-project laravel/laravel my-app
 
-export default async function Page() {
-  const data = await getData()
+# Install Inertia
+composer require inertiajs/inertia-laravel
 
-  return (
-    <div>
-      <h1>Server Component</h1>
-      <pre>{JSON.stringify(data, null, 2)}</pre>
-    </div>
-  )
-}
+# Install frontend dependencies
+npm install @inertiajs/react react react-dom
+\`\`\`
+
+## Creating Your First Page
+
+\`\`\`php
+// routes/web.php
+use Inertia\Inertia;
+
+Route::get('/', function () {
+    return Inertia::render('Home', [
+        'name' => 'Akhmad Efendy Mooduto'
+    ]);
+});
 \`\`\`
 
 ## Key Takeaways
 
-Server Components represent a paradigm shift in how we build React applications. By embracing this new model, we can create faster, more efficient applications with better user experiences.
-
-Stay tuned for more posts about Next.js 14!
+Inertia.js bridges the gap between traditional server-side applications and modern SPAs. It's perfect for developers who want the benefits of both worlds without the complexity.
     `,
-    author: "John Doe",
-    publishedAt: "2024-01-20",
-    tags: ["Next.js", "React", "Web Development"],
+    author: "Akhmad Efendy Mooduto",
+    publishedAt: "2024-04-15",
+    tags: ["Laravel", "Inertia.js", "React", "Web Development"],
     category: "Tutorial",
     readTime: 8,
-    image: "/images/blog/nextjs-14.jpg",
+    image: "/images/blog/laravel-inertia.jpg",
   },
   {
     id: "2",
-    title: "Mastering TypeScript: Advanced Types and Patterns",
-    excerpt: "Deep dive into TypeScript's advanced type system and common patterns for building type-safe applications.",
+    title: "Building RESTful APIs with PHP and Laravel",
+    excerpt: "A comprehensive guide to creating robust and scalable REST APIs using Laravel framework.",
     content: `
-# Mastering TypeScript: Advanced Types and Patterns
+# Building RESTful APIs with PHP and Laravel
 
-TypeScript has become the de facto standard for building large-scale JavaScript applications. Let's explore some advanced patterns that will make your code more robust and maintainable.
+Laravel provides an excellent foundation for building RESTful APIs. Let's explore best practices and patterns for creating robust, scalable APIs.
 
-## Conditional Types
+## API Resource Controllers
 
-Conditional types allow you to create types that depend on other types:
+Laravel's resource controllers make it easy to build RESTful APIs:
 
-\`\`\`typescript
-type IsString<T> = T extends string ? true : false;
+\`\`\`php
+// app/Http/Controllers/API/ProductController.php
+class ProductController extends Controller
+{
+    public function index()
+    {
+        return ProductResource::collection(Product::all());
+    }
 
-type Result1 = IsString<"hello">; // true
-type Result2 = IsString<42>; // false
-\`\`\`
+    public function store(Request $request)
+    {
+        $validated = $request->validate([
+            'name' => 'required|string|max:255',
+            'price' => 'required|numeric|min:0',
+        ]);
 
-## Mapped Types
-
-Transform existing types into new ones:
-
-\`\`\`typescript
-type Readonly<T> = {
-  readonly [P in keyof T]: T[P];
-};
-
-interface User {
-  name: string;
-  age: number;
-}
-
-type ReadonlyUser = Readonly<User>;
-\`\`\`
-
-## Template Literal Types
-
-Create string types based on patterns:
-
-\`\`\`typescript
-type EventName<T extends string> = \`on\${Capitalize<T>}\`;
-
-type ClickEvent = EventName<"click">; // "onClick"
-\`\`\`
-
-## Conclusion
-
-TypeScript's type system is incredibly powerful. By mastering these advanced patterns, you can write code that is both flexible and type-safe.
-    `,
-    author: "John Doe",
-    publishedAt: "2024-02-05",
-    tags: ["TypeScript", "JavaScript", "Programming"],
-    category: "Tutorial",
-    readTime: 12,
-    image: "/images/blog/typescript.jpg",
-  },
-  {
-    id: "3",
-    title: "Building Accessible Web Applications",
-    excerpt: "A comprehensive guide to web accessibility and how to make your applications usable for everyone.",
-    content: `
-# Building Accessible Web Applications
-
-Web accessibility is not just a nice-to-have feature—it's a fundamental requirement for creating inclusive web experiences. Let's explore how to build accessible applications from the ground up.
-
-## Why Accessibility Matters
-
-- **Inclusivity**: 15% of the world's population has some form of disability
-- **Legal Requirements**: Many countries have accessibility laws
-- **Better UX**: Accessible design benefits everyone
-- **SEO**: Accessible sites rank better in search engines
-
-## Key Principles (WCAG)
-
-1. **Perceivable**: Information must be presentable to users in ways they can perceive
-2. **Operable**: UI components must be operable by all users
-3. **Understandable**: Information and UI operation must be understandable
-4. **Robust**: Content must be robust enough to work with assistive technologies
-
-## Practical Tips
-
-### Semantic HTML
-
-\`\`\`html
-<!-- Bad -->
-<div onclick="handleClick()">Click me</div>
-
-<!-- Good -->
-<button onclick="handleClick()">Click me</button>
-\`\`\`
-
-### ARIA Labels
-
-\`\`\`html
-<button aria-label="Close dialog">
-  <svg>...</svg>
-</button>
-\`\`\`
-
-### Keyboard Navigation
-
-Ensure all interactive elements are keyboard accessible:
-
-\`\`\`typescript
-function handleKeyDown(e: KeyboardEvent) {
-  if (e.key === 'Enter' || e.key === ' ') {
-    handleAction();
-  }
+        $product = Product::create($validated);
+        return new ProductResource($product);
+    }
 }
 \`\`\`
 
-## Testing for Accessibility
+## API Resources
 
-- Use screen readers (NVDA, JAWS, VoiceOver)
-- Keyboard-only navigation testing
-- Automated tools (axe, Lighthouse)
-- Color contrast checkers
+Transform your models into clean JSON responses:
 
-## Conclusion
-
-Building accessible web applications is an ongoing process that requires attention and care. By following these principles, we can create experiences that work for everyone.
-    `,
-    author: "John Doe",
-    publishedAt: "2024-03-01",
-    tags: ["Accessibility", "Web Development", "UX"],
-    category: "Best Practices",
-    readTime: 10,
-    image: "/images/blog/accessibility.jpg",
-  },
-  {
-    id: "4",
-    title: "Optimizing React Performance: Tips and Tricks",
-    excerpt: "Learn how to identify and fix performance bottlenecks in your React applications.",
-    content: `
-# Optimizing React Performance: Tips and Tricks
-
-Performance is crucial for user experience. Let's explore various techniques to make your React applications blazing fast.
-
-## Use React DevTools Profiler
-
-The React DevTools Profiler helps identify performance bottlenecks:
-
-\`\`\`tsx
-import { Profiler } from 'react';
-
-function onRenderCallback(
-  id: string,
-  phase: string,
-  actualDuration: number
-) {
-  console.log(\`\${id} took \${actualDuration}ms\`);
+\`\`\`php
+class ProductResource extends JsonResource
+{
+    public function toArray($request)
+    {
+        return [
+            'id' => $this->id,
+            'name' => $this->name,
+            'price' => $this->price,
+            'created_at' => $this->created_at->format('Y-m-d'),
+        ];
+    }
 }
-
-<Profiler id="App" onRender={onRenderCallback}>
-  <App />
-</Profiler>
 \`\`\`
 
-## Memoization Techniques
+## Authentication with Sanctum
 
-### React.memo
-
-\`\`\`tsx
-const MemoizedComponent = React.memo(function MyComponent(props) {
-  return <div>{props.value}</div>;
+\`\`\`php
+// Protect your routes
+Route::middleware('auth:sanctum')->group(function () {
+    Route::apiResource('products', ProductController::class);
 });
 \`\`\`
 
-### useMemo
+## Conclusion
 
-\`\`\`tsx
-const expensiveValue = useMemo(() => {
-  return computeExpensiveValue(a, b);
-}, [a, b]);
+Laravel makes API development straightforward and maintainable. With built-in features like resource controllers, API resources, and Sanctum authentication, you can build production-ready APIs quickly.
+    `,
+    author: "Akhmad Efendy Mooduto",
+    publishedAt: "2024-03-20",
+    tags: ["PHP", "Laravel", "REST API", "Backend"],
+    category: "Tutorial",
+    readTime: 12,
+    image: "/images/blog/laravel-api.jpg",
+  },
+  {
+    id: "3",
+    title: "Integrating Third-Party APIs with PHP",
+    excerpt: "Learn best practices for integrating external APIs using PHP and cURL with proper error handling.",
+    content: `
+# Integrating Third-Party APIs with PHP
+
+Integrating third-party APIs is a common requirement in modern web applications. Let's explore how to do this effectively using PHP and cURL.
+
+## Setting Up cURL Requests
+
+\`\`\`php
+function makeApiRequest($url, $method = 'GET', $data = null)
+{
+    $ch = curl_init();
+
+    curl_setopt($ch, CURLOPT_URL, $url);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_CUSTOMREQUEST, $method);
+
+    if ($data) {
+        curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($data));
+        curl_setopt($ch, CURLOPT_HTTPHEADER, [
+            'Content-Type: application/json',
+            'Content-Length: ' . strlen(json_encode($data))
+        ]);
+    }
+
+    $response = curl_exec($ch);
+    $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+    curl_close($ch);
+
+    return [
+        'code' => $httpCode,
+        'data' => json_decode($response, true)
+    ];
+}
 \`\`\`
 
-### useCallback
+## Error Handling
 
-\`\`\`tsx
-const memoizedCallback = useCallback(() => {
-  doSomething(a, b);
-}, [a, b]);
+\`\`\`php
+try {
+    $result = makeApiRequest('https://api.example.com/data');
+
+    if ($result['code'] !== 200) {
+        throw new Exception('API request failed: ' . $result['code']);
+    }
+
+    // Process successful response
+    return $result['data'];
+
+} catch (Exception $e) {
+    Log::error('API Integration Error: ' . $e->getMessage());
+    return null;
+}
 \`\`\`
 
-## Code Splitting
+## Best Practices
 
-Use dynamic imports to split your code:
-
-\`\`\`tsx
-const HeavyComponent = lazy(() => import('./HeavyComponent'));
-
-<Suspense fallback={<Loading />}>
-  <HeavyComponent />
-</Suspense>
-\`\`\`
-
-## Virtual Lists
-
-For long lists, use virtualization:
-
-\`\`\`tsx
-import { FixedSizeList } from 'react-window';
-
-<FixedSizeList
-  height={600}
-  itemCount={1000}
-  itemSize={35}
->
-  {Row}
-</FixedSizeList>
-\`\`\`
+- Always validate API responses
+- Implement proper error handling
+- Use environment variables for API keys
+- Cache responses when appropriate
+- Monitor API rate limits
 
 ## Conclusion
 
-React performance optimization is about finding the right balance. Don't over-optimize, but do measure and improve where it matters most.
+Proper API integration requires attention to error handling, security, and performance. Following these patterns will help you build reliable integrations.
     `,
-    author: "John Doe",
-    publishedAt: "2024-02-20",
-    tags: ["React", "Performance", "Optimization"],
+    author: "Akhmad Efendy Mooduto",
+    publishedAt: "2024-03-10",
+    tags: ["PHP", "API Integration", "cURL", "Best Practices"],
     category: "Tutorial",
+    readTime: 10,
+    image: "/images/blog/php-api.jpg",
+  },
+  {
+    id: "4",
+    title: "Database Optimization Tips for MySQL",
+    excerpt: "Essential techniques for optimizing MySQL database performance in PHP applications.",
+    content: `
+# Database Optimization Tips for MySQL
+
+Database performance is crucial for application scalability. Let's explore essential MySQL optimization techniques.
+
+## Indexing Strategies
+
+\`\`\`sql
+-- Create indexes on frequently queried columns
+CREATE INDEX idx_user_email ON users(email);
+CREATE INDEX idx_product_category ON products(category_id);
+
+-- Composite indexes for multi-column queries
+CREATE INDEX idx_order_user_date ON orders(user_id, created_at);
+\`\`\`
+
+## Query Optimization
+
+\`\`\`php
+// Bad: N+1 query problem
+$users = User::all();
+foreach ($users as $user) {
+    echo $user->profile->bio; // Additional query per user
+}
+
+// Good: Eager loading
+$users = User::with('profile')->get();
+foreach ($users as $user) {
+    echo $user->profile->bio; // No additional queries
+}
+\`\`\`
+
+## Using EXPLAIN
+
+\`\`\`sql
+EXPLAIN SELECT * FROM orders
+WHERE user_id = 1
+AND status = 'completed';
+\`\`\`
+
+## Connection Pooling
+
+\`\`\`php
+// Configure persistent connections
+'mysql' => [
+    'driver' => 'mysql',
+    'options' => [
+        PDO::ATTR_PERSISTENT => true,
+    ],
+],
+\`\`\`
+
+## Caching Strategies
+
+- Use query result caching
+- Implement Redis for frequently accessed data
+- Cache complex aggregations
+- Set appropriate TTL values
+
+## Conclusion
+
+Database optimization is an ongoing process. Regular monitoring, proper indexing, and query optimization can significantly improve application performance.
+    `,
+    author: "Akhmad Efendy Mooduto",
+    publishedAt: "2024-02-25",
+    tags: ["MySQL", "Database", "Performance", "Optimization"],
+    category: "Best Practices",
     readTime: 15,
-    image: "/images/blog/react-performance.jpg",
+    image: "/images/blog/mysql-optimization.jpg",
   },
 ];

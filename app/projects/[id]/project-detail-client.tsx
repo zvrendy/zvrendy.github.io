@@ -120,7 +120,7 @@ export function ProjectDetailClient({ project }: ProjectDetailClientProps) {
             className="object-cover"
             priority
             onError={(e) => {
-              e.currentTarget.src = "/images/placeholder.jpg";
+              e.currentTarget.src = "/images/placeholder.png";
             }}
           />
         </div>
@@ -160,7 +160,7 @@ export function ProjectDetailClient({ project }: ProjectDetailClientProps) {
                       fill
                       className="object-cover hover:scale-105 transition-transform cursor-pointer"
                       onError={(e) => {
-                        e.currentTarget.src = "/images/placeholder.jpg";
+                        e.currentTarget.src = "/images/placeholder.png";
                       }}
                     />
                   </div>

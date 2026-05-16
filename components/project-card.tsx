@@ -28,7 +28,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
             fill
             className="object-cover transition-transform group-hover:scale-105"
             onError={(e) => {
-              e.currentTarget.src = "/images/placeholder.jpg";
+              e.currentTarget.src = "/images/placeholder.png";
             }}
           />
           {project.featured && (

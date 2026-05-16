@@ -111,7 +111,7 @@ export function BlogPostClient({ post }: BlogPostClientProps) {
               className="object-cover"
               priority
               onError={(e) => {
-                e.currentTarget.src = "/images/placeholder.jpg";
+                e.currentTarget.src = "/images/placeholder.png";
               }}
             />
           </div>
