@@ -15,7 +15,7 @@ export const personalInfo: PersonalInfo = {
   bio: "A Software Developer with seven years of experience specializing in Agile software development, back-end development such as PHP and JavaScript, and web development. A strong history of developing innovative application features and software solutions to enhance the user experience.",
   email: "zvrendy@gmail.com",
   location: "Surabaya, Indonesia",
-  phone: "+62 xxx xxxx xxxx",
+  phone: "+62 822 4412 4143",
   avatar: "/images/avatar.jpg",
   resume: "/resume.pdf",
 };
